@@ -1,0 +1,866 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+	color: black;
+	background: #F8F8FF;
+	line-height: 1.5;	
+}
+
+#header{
+	background-image:url('background_img_1.png');
+	color: white;
+	font: 33px arial, sans-serif;
+	font-weight: bold;
+	margin-top: 2px;
+	padding-left: 15px;
+	margin-bottom: 1px;
+	padding-bottom: 5px;
+	border-bottom: dotted white 1px;
+	border-left: dotted white 1px;
+	border-right: dotted white 1px;
+	height: 135px;
+	text-align:left;
+}
+
+.login_buy{
+position: relative;
+top: 97px;
+left: 368px;
+
+}
+
+.tekstZaglavlja{
+	line-height:165px;
+}
+
+h1{ 
+	font-family: arial;
+	margin-bottom: 0px;
+	color: #191970;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+ul{
+	margin-top: 1px;
+}
+
+#wrap{
+	width: 900px;
+	margin: 0px auto;
+}
+
+/*
+#navigation{
+	font: 13px verdana;
+	line-height: 2;
+	font-weight: bold;
+}
+
+#navigation_left{
+	clear: both;
+	background: #E6E6FA;
+	width: 639px;
+	float: left;
+	text-align: left;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	border-left: dotted black 1px;
+	border-bottom: dotted black 1px;
+	height: 30px;
+}
+
+#navigation_right{
+	/*background: #E6E6FA;
+	width: 239px;
+	float: right;
+	text-align: right;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	border-bottom: dotted black 1px;
+	border-right: dotted black 1px;
+	height: 30px;*/
+	position:relative;
+	left: 860px;
+	top: -200px;
+}
+
+ul.list_nav_1 {
+	list-style:none;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.list_nav_2 {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.list_nav_1 li {
+	display: inline;
+}
+
+ul.list_nav_1 li a:link {
+	color: #191970;
+}
+
+ul.list_nav_1 li a:visited {
+	color: #4169E1;
+}
+
+ul.list_nav_1 li a:hover {
+	color: #DC143C;
+}
+
+ul.list_nav_1 li a:active {
+	color: #8B0000;
+}
+
+ul.list_nav_2 li {
+	display: inline;
+}
+
+
+ul.list_nav_2 li a:link    {color: #FAF0E6;}
+ul.list_nav_2 li a:visited {color: #D87093;}
+ul.list_nav_2 li a:hover {color: #DC143C;}
+/*
+ul.list_nav_2 li a:link {
+	color: #191970;
+}
+
+ul.list_nav_2 li a:visited {
+	color: #4169E1;
+}
+
+ul.list_nav_2 li a:hover {
+	color: #DC143C;
+}
+
+ul.list_nav_2_prijavljen {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.list_nav_2_prijavljen li {
+	display: inline;
+}
+
+ul.list_nav_2_prijavljen li a:link {
+	color: #000000;
+}
+
+ul.list_nav_2_prijavljen li a:visited {
+	color: #000000;
+}
+
+ul.list_nav_2_prijavljen li a:hover {
+	color: #DC143C;
+}
+
+ul.list_nav_2_prijavljen li a:active {
+	color: #8B0000;
+}
+*/
+
+#content{
+	clear: both;
+	font-family: verdana;
+	background: white;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 55px;
+	margin-top: 2px;
+	/*margin-bottom: 55px;*/
+	border-left: dotted #191970 1px;
+	border-right: dotted #191970 1px;
+	/*height: 1000px;*/
+	text-align:justify;
+}
+/*
+#subcontent{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: justify;
+	position: relative;
+	left:0;
+	right:0;
+	/*padding-bottom: 40px;
+}
+*/
+
+#content img.paddingLeft200px{
+	padding-left:200px;
+}
+
+#content img.float_right{  
+	margin: 5px;
+	height: auto;
+	width: auto;
+	float: right;
+}
+/*
+#content img.login{
+	padding-left: 150px;
+}
+
+#content.logiranje{
+	height: 500px;
+}
+*/
+#content_v530px{
+	clear: both;
+	font-family: verdana;
+	background: white;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 55px;
+	margin-top: 2px;
+	/*margin-bottom: 55px;*/
+	border-left: dotted #191970 1px;
+	border-right: dotted #191970 1px;
+	/*height: 1000px;*/
+	height: 530px;
+}
+
+#content.registracija{
+	height: 500px;
+}
+
+table.registracija{
+	border: solid #191970 1px;
+	padding: 10px;
+	width: 760px;
+	background-color: #F8F8FF;
+}
+
+table.registracija tr td{
+	vertical-align: top;
+}
+
+table.login{
+	border: dotted #191970 1px;
+	background-color: #F8F8FF;
+	padding: 10px;
+	position:relative;
+	top: 0px;
+	left: 500px;
+}
+
+table.loginOpenID{
+	border: dotted #191970 1px;
+	background-color: #F8F8FF;
+	padding: 10px;
+	position:relative;
+	top: 30px;
+	left: 320px;
+}
+
+#footer{
+	font-family: courier;
+	background-color: #E6E6FA;
+	border-left: dotted #191970 1px;
+	border-top: dotted #191970 1px;
+	border-right: dotted #191970 1px;
+	margin-top: 10px;
+	position:fixed;
+	bottom:0px;
+	width: 898px;
+	height: 40px;
+	z-index: 5;
+	clear: both;
+}
+
+#footer p.text{
+	float: right;
+	padding-right: 5px;
+}
+
+#footer p.img{
+	margin-top: 5px;
+	margin-left: 5px;
+	float:left;	
+}
+
+.imgFixed{
+	position: fixed;
+	bottom: 40px;
+}
+
+.greska {
+	color:red;
+	font-size: 12px;
+	font-family: courier;
+}
+
+.greskaKorIme {
+	color:red;
+	font-size: 12px;
+	font-family: courier;
+}
+
+.greskaR {
+	color:red;
+	font-size: 12px;
+	font-family: courier;
+	float: right;
+}
+
+.uputa{
+	color:blue;
+	font-size: 12px;
+	font-family: courier;
+}
+
+.dobro{
+	color:green;
+	font-size: 12px;
+	font-family: courier;
+}
+
+.zeleno{
+	color: green;
+}
+.crveno{
+	color: red;
+}
+
+.plavo{
+	color: blue;
+}
+
+.podnaslov{
+	text-align: left;
+	/*font-family: verdana;*/
+	color: green;
+	/*font-size: 24px;*/
+	font: 23px arial, sans-serif;
+	font-weight: bold;
+	border-bottom: solid green 1px;
+}
+
+
+table.tablica{
+	border: solid #191970 1px;
+	padding: 10px;
+	width: 760px;
+	background-color: #F8F8FF;
+	text-align: left;
+}
+
+table.tablica th tr td{
+	vertical-align: top;
+}
+
+table.tablicaV{
+	border: solid #191970 1px;
+	padding: 10px;
+	background-color: #F8F8FF;
+	text-align: left;
+}
+
+table.tablicaV th tr td{
+	vertical-align: top;
+}
+
+table.tablicaV2{
+	border: solid #191970 1px;
+	padding: 10px;
+	background-color: #F0F8FF;
+	text-align: left;
+}
+
+table.tablicaV2 th tr td{
+	vertical-align: top;
+}
+
+.profilna_slika{
+	width: 50px;
+	height: 50px;
+}
+
+.profilna_slika_small{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+	right: 2px;
+	padding:0;
+	margin:0;
+}
+
+
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	margin-top: 20px;
+}
+
+div.pagination a {
+
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;	
+	text-decoration: none;
+	/*
+	color: #191970;
+	*/
+	border: 1px solid #006699;
+	/*padding: 2px 6px 2px 6px;
+	margin: 0 3px 0 3px;*/
+	font-family: arial;
+	/*font-size: 14px;*/
+	color: #006699;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	
+}
+div.pagination a:hover, div.pagination a:active {
+	/*border: 1px solid #000099;
+	color: #191970;
+	*/
+	color: #fff;
+	background-color: #006699;
+	cursor: pointer;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #006699;/*#000099;*/	
+	font-weight: bold;
+	/*background-color: #191970;
+	color: #FFF;
+	*/
+	color: #fff;
+	background-color: #006699;
+	/*cursor: pointer;*/
+	
+	}
+div.pagination span.disabled {
+
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	/*
+	border: 1px solid #EEE;
+	
+	color: #DDD;
+	*/
+	background-color:#ededed;
+	color:#bababa;
+	border:1px solid #bababa;
+	cursor: default;
+	}
+
+.greskaBorderRed{
+border: solid 1px red;
+}
+
+.fokus{
+/*	border: solid 1px #FFFF00;*/
+	background-color: #FFFFF0; 
+}
+/*
+.greskaJ{
+	color:red;
+	font-size: 12px;
+	font-family: courier;
+	float: right;
+}
+*/
+
+/* zadaæa 6 proba */
+
+#loading{
+	/*width: 100%;*/
+	position: absolute;
+	top: 200px;
+	left: 600px;
+	margin-top:200px;
+}
+#content .pagination ul li.inactive,
+#content .pagination ul li.inactive:hover{
+	background-color:#ededed;
+	color:#bababa;
+	border:1px solid #bababa;
+	cursor: default;
+}
+/*
+#content .data ul li{
+	list-style: none;
+	font-family: verdana;
+	margin: 5px 0 5px 0;
+	color: #000;
+	font-size: 13px;
+}
+*/
+
+#content .pagination{
+	width: 800px;
+	height: 25px;
+}
+
+#content .pagination ul li{
+	list-style: none;
+	float: left;
+	border: 1px solid #006699;
+	padding: 2px 6px 2px 6px;
+	margin: 0 3px 0 3px;
+	font-family: arial;
+	font-size: 14px;
+	color: #006699;
+	font-weight: bold;
+	background-color: #f2f2f2;
+}
+
+
+#content .pagination ul li:hover{
+	color: #fff;
+	background-color: #006699;
+	cursor: pointer;
+}
+/*
+.go_button{
+	background-color:#f2f2f2;
+	border:1px solid #006699;
+	color:#cc0000;
+	padding:2px 6px 2px 6px;
+	cursor:pointer;
+	position:absolute;
+	margin-top:-1px;
+}
+.total{
+	float:right;
+	font-family: arial;
+	color:#999;
+}
+*/
+
+#content .pagination ul li.active{
+	list-style: none;
+	float: left;
+	border: 1px solid #006699;
+	padding: 2px 6px 2px 6px;
+	margin: 0 3px 0 3px;
+	font-family: arial;
+	font-size: 14px;
+	color: #006699;
+	font-weight: bold;
+	background-color: #f2f2f2;
+}
+
+/*za komentar stil */
+
+.comment,
+#addCommentContainer{
+	
+	/* Syling the comments and the comment form container */
+	
+	padding:12px;
+	width:400px;
+	/*position:relative;*/
+	background-color:#fcfcfc;
+	border:1px solid white;
+	color:#888;
+	margin-bottom:25px;
+	/*border: solid blue 1px;*/
+	/*border: dotted #191970 1px;*/
+	
+	/* CSS3 rounded corners and drop shadows */
+	/*
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+
+	-moz-box-shadow:2px 2px 0 #c2c2c2;
+	-webkit-box-shadow:2px 2px 0 #c2c2c2;
+	box-shadow:2px 2px 0 #c2c2c2;
+	*/
+}
+
+.comment .avatar{
+
+	/*
+	/	The avatar is positioned absolutely, 
+	/	and offset outside the comment div
+	/*/
+	height:50px;
+	left:-70px;
+	position:relative;
+	left:-150px;
+	right:-566px;
+	width:50px;
+	/*border: dotted #191970 1px;*/
+	/*background:url('img/default_avatar.gif') no-repeat #fcfcfc;*/
+	
+	/* Centering it vertically: */
+	/*
+	margin-top:-25px;
+	top:50%;
+	*/
+/*
+	-moz-box-shadow:1px 1px 0 #c2c2c2;
+	-webkit-box-shadow:1px 1px 0 #c2c2c2;
+	box-shadow:1px 1px 0 #c2c2c2;*/
+	
+}
+
+.comment .avatarKor img{
+	/*display:block;*/
+	position:relative;
+	left:-180px;
+	/*bottom: 15px;*/
+	line-height:0px;
+	/*border:dotted #191970 1px;*/
+}
+
+.comment .username_komentatora{
+	font-size:20px;
+	padding-bottom:10px;
+	color:#ccc;
+	text-align:left;
+	margin-top:-50px;
+}
+
+.container.comment.dateKom{
+	/*text-align:right;*/
+	font-size:10px;
+	padding-top:0px;
+	padding-right:0px;
+	margin-top:0px;
+	/*position:absolute;
+	right:15px;
+	top:10px;
+	color:#bbb;*/
+	/*color:red;*/
+	line-height:0px;
+}
+
+.comment p,
+#addCommentContainer p{
+	font-size:18px;
+	/*line-height:1.5;*/
+	padding-left:15px;
+	margin:0px;
+	text-align:left;
+	word-wrap: break-word;
+/*	overflow-x:hidden;*/
+}
+
+#addCommentContainer input[type=text],
+#addCommentContainer textarea{
+
+	/* Styling the inputs */
+
+	display:block;
+	border:1px solid #ccc;
+	margin:5px 0 5px;
+	padding:3px;
+	font-size:12px;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#addCommentContainer textarea{
+	width:300px;
+}
+/*
+label{
+	font-size:10px;
+}
+
+span.error{
+	color:red;
+	position:relative;
+	right:-10px;
+}
+*/
+/*
+#pokPodKom{
+    border: 1px solid #006;
+ 
+	background-color:midnightblue;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:'Myriad Pro',Arial,Helvetica,sans-serif;
+}
+
+#pokPodKom:hover {
+   
+	border:1px solid #40A2D4;
+    background: #eef;
+	color:midnightblue;
+}
+*/
+
+#submit{
+	
+	/* The submit button */
+	
+	background-color:midnightblue;
+	
+	border:1px solid #40A2D4;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-family:'Myriad Pro',Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:4px;
+	margin-top:5px;
+/*
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;*/
+}
+
+#submit:hover{
+	
+	color:#FFE4E1;
+	border-color:#FFE4E1;
+}
+
+/* The styles below are only necessary for the styling of the demo page: */
+/*
+#main{
+	position:relative;
+	margin:0 auto;
+	width:427px;
+}
+
+h1{
+	color:#7E94A2;
+	font-size:30px;
+	margin:50px 0 20px;
+}
+
+h2{
+	font-size:18px;
+	margin-bottom:50px;
+}
+
+h1,h2{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	text-align:center;
+	font-weight:normal;
+	text-shadow:0 1px 1px #FFFFFF;
+}
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+*/
+
+/*rating css*/
+.star-rating,
+.star-rating a:hover,
+.star-rating a:active,
+.star-rating a:focus,
+.star-rating .current-rating{
+	background: url(star.gif) left -1000px repeat-x;
+}
+.star-rating{
+	position:relative;
+	width:125px;
+	height:25px;
+	overflow:hidden;
+	list-style:none;
+	margin:0;
+	padding:0;
+	background-position: left top;
+}
+.star-rating li{
+	display: inline;
+}
+.star-rating a, 
+.star-rating .current-rating{
+	position:absolute;
+	top:0;
+	left:0;
+	text-indent:-1000em;
+	height:25px;
+	line-height:25px;
+	outline:none;
+	overflow:hidden;
+	border: none;
+}
+.star-rating a:hover,
+.star-rating a:active
+/*.star-rating a:focus*/{
+	background-position: left bottom;
+}
+.star-rating a.one-star{
+	width:20%;
+	z-index:6;
+}
+.star-rating a.two-stars{
+	width:40%;
+	z-index:5;
+}
+.star-rating a.three-stars{
+	width:60%;
+	z-index:4;
+}
+.star-rating a.four-stars{
+	width:80%;
+	z-index:3;
+}
+.star-rating a.five-stars{
+	width:100%;
+	z-index:2;
+}
+.star-rating .current-rating{
+	z-index:1;
+	background-position: left center;
+}	
+
+/* for an inline rater */
+.inline-rating{
+	display:-moz-inline-block;
+	display:-moz-inline-box;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+/* smaller star */
+.small-star{
+	width:50px;
+	height:10px;
+}
+
+.small-star,
+.small-star a:hover,
+.small-star a:active,
+.small-star a:focus,
+.small-star .current-rating{
+	background-image: url(star_small.gif);
+	line-height: 10px;
+	height: 10px;
+}
+
+#slideshow-container	{ /*width:512px; height:384px;*/ width:auto; height:500px; position:relative; }
+#slideshow-container img { /*width:512px; height:384px;*/ display:block; position:absolute; top:0; left:0; z-index:1; }
+#slideshow-container-controls { margin:10px 0 0 0; }
+	#slideshow-container-controls img { cursor:pointer; width:100px; height:75px; border:1px solid #ccc; float:left; margin:0 1px 0 0; }
+#slideshow-container-caption  { height:70px; position:absolute; bottom:0; left:0; right:0; background:#000; z-index:10; overflow:hidden; }
+	* html #slideshow-container-caption { width:100%; }
+	#slideshow-container-caption h3 { font-size:24px; font-weight:bold; color:#fff; padding:10px 10px 3px 10px; }
+	#slideshow-container-caption p	{ color:#eee; font-size:11px; padding:0 10px 10px 10px; }
+.toc-active				{ border-color:#000; }
+
